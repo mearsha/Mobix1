@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>سبد خرید | موبیکس</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+
+        <div class="container header-content">
+
+            <a href="index.html" class="logo">
+                MOBIX
+                <span>موبیکس</span>
+            </a>
+
+            <button class="back-btn" id="back-button">
+                 برگشت به صفحه قبل ←
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- Cart -->
+    <main class="cart-page">
+
+        <div class="container">
+
+            <div class="section-title">
+                <span>سبد خرید</span>
+                <h1>محصولات انتخاب‌شده</h1>
+            </div>
+
+
+            <div class="cart-layout">
+
+                <!-- محصولات -->
+                <div id="cart-items" class="cart-items">
+                    <!-- محصولات با JavaScript اینجا قرار می‌گیرند -->
+                </div>
+
+
+                <!-- خلاصه خرید -->
+                <div class="cart-summary">
+
+                    <h2>خلاصه سفارش</h2>
+
+                    <div class="summary-row">
+                        <span>تعداد محصولات</span>
+                        <strong id="summary-count">0</strong>
+                    </div>
+
+                    <div class="summary-row">
+                        <span>مبلغ کل</span>
+                        <strong id="summary-total">
+                            0 تومان
+                        </strong>
+                    </div>
+
+                    <div class="summary-line"></div>
+
+                    <div class="summary-total">
+                        <span>قابل پرداخت</span>
+
+                        <strong id="final-total">
+                            0 تومان
+                        </strong>
+                    </div>
+
+                    <button class="checkout-btn">
+                        ادامه و پرداخت
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
